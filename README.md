@@ -1,6 +1,6 @@
 ## 🔗 Links
 
-🌐 **Live Site:** [BPL Dream 11](https://digitools-platform-sh.netlify.app/)
+🌐 **Live Site:** [Digitools-Platform](https://digitools-platform-sh.netlify.app/)
 
 # React + Vite
 
