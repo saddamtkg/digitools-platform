@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import 'tailwindcss';
+@plugin "daisyui";
+
+/* ২. Tailwind v4 থিম কনফিগারেশন */
+@theme {
+  --font-sans: 'Manrope', sans-serif;
+
+  --content-width: 1200px;
+}
+
+:root,
+body {
+  font-family: var(--font-sans);
+  scroll-behavior: smooth;
+  /* পেজ স্ক্রলিং স্মুথ করার জন্য */
+}
+
+@utility my-container {
+  max-width: var(--content-width);
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+@utility capitalize {
+  text-transform: capitalize;
+}
+
+body {
+  @apply bg-base-100 text-base-content;
+  /* daisyUI থিম অনুযায়ী কালার সেট হবে */
+  margin: 0;
+  min-height: 100vh;
+}
