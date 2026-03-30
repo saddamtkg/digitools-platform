@@ -24,6 +24,13 @@ body {
   /* পেজ স্ক্রলিং স্মুথ করার জন্য */
 }
 
+@utility text-gradient-brand {
+  background: var(--gradiant-color);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
 a {
   cursor: var(--cursor-pointer);
 }
