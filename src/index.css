@@ -1,11 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
-@import 'tailwindcss';
+@import "tailwindcss";
 @plugin "daisyui";
 
 /* ২. Tailwind v4 থিম কনফিগারেশন */
 @theme {
-  --font-sans: 'Manrope', sans-serif;
+  --font-sans: "Manrope", sans-serif;
+  --primary-color: #101727;
+  --gradiant-color: linear-gradient(
+    to right,
+    rgba(79, 57, 246, 1) 0%,
+    rgba(149, 20, 250, 1) 100%
+  );
+  --cursor-pointer: pointer;
 
   --content-width: 1200px;
 }
@@ -17,15 +24,34 @@ body {
   /* পেজ স্ক্রলিং স্মুথ করার জন্য */
 }
 
+a {
+  cursor: var(--cursor-pointer);
+}
+
+@utility c-btn-hover {
+  &:hover {
+    opacity: 0.9;
+    filter: brightness(110%);
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+  }
+}
+
 @utility my-container {
   max-width: var(--content-width);
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 90%;
 }
 
 @utility capitalize {
   text-transform: capitalize;
+}
+@utility c-text-color {
+  color: var(--primary-color);
+}
+@utility c-bg {
+  background: var(--gradiant-color);
 }
 
 body {
