@@ -1,20 +1,66 @@
-## 🔗 Links
+# DigiTools Platform
 
-🌐 **Live Site:** [Digitools-Platform](https://digitools-platform-sh.netlify.app/)
+A modern digital tools marketplace project where users can browse premium products, add items to cart, remove items, and complete checkout with interactive toast messages.
 
-# React + Vite
+## Live Preview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Live Site: [Digitools Platform](https://digitools-platform-sh.netlify.app/)
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project is built as a responsive single-page experience based on a marketplace-style UI.
+It includes product listing, cart toggling, total price calculation, and checkout flow with toast notifications.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19
+- Vite 8
+- Tailwind CSS 4
+- DaisyUI 5
+- React Icons
+- React Toastify
 
-## Expanding the ESLint configuration
+## Main Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Product and Cart tab toggle in the main section
+- Dynamic cart count in the navbar (shown only when cart has items)
+- Add to cart, remove from cart, and proceed to checkout functionality
+- Total cart price calculation
+- Responsive layout for mobile, tablet, and desktop
+- Toast notifications for cart actions
+
+## Project Sections
+
+- Navbar
+- Hero Banner
+- Stats Section
+- Product / Cart Toggle Section
+- Steps Section
+- Pricing Section
+- CTA Section
+- Footer
+
+## Local Setup
+
+1. Clone the repository
+2. Install dependencies:
+   - `npm install`
+3. Run development server:
+   - `npm run dev`
+4. Build for production:
+   - `npm run build`
+5. Preview production build:
+   - `npm run preview`
+
+## Data Source
+
+- Product data is loaded from:
+  - `public/products.json`
+
+## What I Focused On
+
+- Clean component-based structure
+- Reusable props flow from root to child components
+- Simple and readable cart logic
+- Better user feedback through toast notifications
+
