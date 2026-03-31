@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
-import './Navbar.css';
-import { FiMenu, FiShoppingCart } from 'react-icons/fi';
-import { IoMdClose } from 'react-icons/io';
+import React, { useState } from "react";
+import { FiMenu, FiShoppingCart } from "react-icons/fi";
+import { IoMdClose } from "react-icons/io";
+import "./Navbar.css";
 
-const Navbar = () => {
+const Navbar = ({ cartCount }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -40,7 +40,7 @@ const Navbar = () => {
               )}
             </div>
             <div
-              className={`p-4 top-0 z-50 fixed left-0 h-screen w-70 max-[400px]:w-fit bg-base-100 shadow-lg transform transition-transform duration-500 ease-in-out ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}
+              className={`p-4 top-0 z-50 fixed left-0 h-screen w-70 max-[400px]:w-fit bg-base-100 shadow-lg transform transition-transform duration-500 ease-in-out ${isOpen ? "translate-x-0" : "-translate-x-full"}`}
             >
               <a href="">
                 <img
@@ -63,7 +63,7 @@ const Navbar = () => {
                   <a href="#pricing">Pricing</a>
                 </li>
                 <li>
-                  <a href="#testmonial">Testimonials</a>
+                  <a href="#testimonial">Testimonials</a>
                 </li>
                 <li>
                   <a href="#faq">FAQ</a>
@@ -92,9 +92,14 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="items-center gap-4 hidden lg:flex">
-          <a href="">
-            <FiShoppingCart className="text-[16px]" />
-          </a>
+          <span className="relative">
+            {cartCount > 0 && (
+              <span className="absolute -top-4 -right-3 bg-red-500 text-white px-1 py-0.5 text-[12px] font-semibold rounded-full w-5 h-5 flex items-center justify-center">
+                {cartCount}
+              </span>
+            )}
+            <FiShoppingCart className="text-[20px]" />
+          </span>
           <a href="" className="text-[16px] font-semibold">
             Login
           </a>

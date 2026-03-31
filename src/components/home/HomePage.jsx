@@ -1,18 +1,36 @@
-import React from 'react';
+import React, { use } from "react";
 
-import Banner from './Banner';
-import Stats from './Stats';
-import MainSection from './MainSection';
-import Steps from './Steps';
-import Pricing from './Pricing';
-import CtaSection from './CtaSection';
+import Banner from "./Banner";
+import CtaSection from "./CtaSection";
+import MainSection from "./MainSection";
+import Pricing from "./Pricing";
+import Stats from "./Stats";
+import Steps from "./Steps";
 
-const HomePage = () => {
+const HomePage = ({
+  productsPromise,
+  addToCart,
+  removeFromCart,
+  totalPrice,
+  cartCount,
+  proceedToCheckout,
+  cartItems,
+}) => {
+  const products = use(productsPromise);
+
   return (
     <div>
       <Banner />
       <Stats />
-      <MainSection />
+      <MainSection
+        products={products}
+        addToCart={addToCart}
+        removeFromCart={removeFromCart}
+        totalPrice={totalPrice}
+        cartCount={cartCount}
+        proceedToCheckout={proceedToCheckout}
+        cartItems={cartItems}
+      />
       <Steps />
       <Pricing />
       <CtaSection />

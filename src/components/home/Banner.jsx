@@ -40,7 +40,7 @@ const Banner = () => {
               </a>
             </div>
           </div>
-          <div className="b-column-2 w-full max-w-full">
+          <div className="b-column-2">
             <img
               className="w-full h-auto"
               src="/src/assets/banner.png"

@@ -1,0 +1,125 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality blogs, captions, and marketing copy in seconds with advanced AI assistance.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Unlimited AI generations",
+      "50+ writing templates",
+      "Grammar checker"
+    ],
+    "icon": "FaPenNib"
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+    "description": "Access premium templates for social posts, presentations, and brand kits for faster design delivery.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "500+ editable templates",
+      "Canva/Figma compatible",
+      "Commercial license"
+    ],
+    "icon": "FaPalette"
+  },
+  {
+    "id": 3,
+    "name": "Premium Stock Assets",
+    "description": "Royalty-free photos, vectors, and mockups for websites, ads, and creative campaigns.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "100K+ stock files",
+      "4K quality downloads",
+      "No attribution needed"
+    ],
+    "icon": "FaImages"
+  },
+  {
+    "id": 4,
+    "name": "Automation Toolkit",
+    "description": "Automate repetitive tasks and build no-code workflows to save time across your daily operations.",
+    "price": 39,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Drag-and-drop workflows",
+      "200+ app integrations",
+      "Scheduled automations"
+    ],
+    "icon": "FaBolt"
+  },
+  {
+    "id": 5,
+    "name": "Resume Builder Pro",
+    "description": "Build ATS-friendly resumes with recruiter-tested layouts and export-ready formats.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["ATS score checker", "Professional layouts", "PDF export"],
+    "icon": "FaFileAlt"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Content Kit",
+    "description": "Plan, design, and schedule high-performing social posts from one easy workspace.",
+    "price": 24,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Content calendar",
+      "Hashtag suggestions",
+      "One-click scheduling"
+    ],
+    "icon": "FaHashtag"
+  },
+  {
+    "id": 7,
+    "name": "SEO Optimization Suite",
+    "description": "Improve search visibility with keyword insights, on-page audits, and optimization recommendations.",
+    "price": 34,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Keyword difficulty score",
+      "Site health audits",
+      "SERP tracking"
+    ],
+    "icon": "FaSearch"
+  },
+  {
+    "id": 8,
+    "name": "Video Editing Starter",
+    "description": "Create polished short videos quickly with transitions, captions, and platform-ready exports.",
+    "price": 59,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Drag-and-drop timeline", "Auto subtitles", "1080p export"],
+    "icon": "FaVideo"
+  },
+  {
+    "id": 9,
+    "name": "Team Collaboration Hub",
+    "description": "Manage tasks, documents, and communication in one shared workspace for your whole team.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Task boards", "Real-time comments", "Role-based access"],
+    "icon": "FaUsers"
+  }
+]

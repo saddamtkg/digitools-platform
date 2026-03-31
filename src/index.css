@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-@import "tailwindcss";
+@import 'tailwindcss';
 @plugin "daisyui";
 
 /* ২. Tailwind v4 থিম কনফিগারেশন */
 @theme {
-  --font-sans: "Manrope", sans-serif;
+  --font-sans: 'Manrope', sans-serif;
   --primary-color: #101727;
   --gradiant-color: linear-gradient(
     to right,
@@ -29,6 +29,10 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+
+@utility c-capitalize {
+  text-transform: capitalize;
 }
 
 a {
