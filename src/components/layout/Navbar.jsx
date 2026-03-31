@@ -9,7 +9,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="bg-base-100 shadow-sm">
+    <div className="bg-base-100 fixed top-0 left-0 right-0 z-50 shadow-sm">
       <div className="my-container flex items-center justify-between h-15 py-2">
         <div className="lg:block hidden">
           <a href="">
