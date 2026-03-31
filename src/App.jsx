@@ -20,7 +20,7 @@ function App() {
   };
 
   const removeFromCart = (id) => {
-    setCartItems(prevItems => prevItems.filter(item => item.id !== id));
+    setCartItems((prevItems) => prevItems.filter((item) => item.id !== id));
     toast.success("Product removed from cart");
   };
   const clearCart = () => {
@@ -37,7 +37,11 @@ function App() {
     <>
       <Navbar cartCount={cartCount} />
       <Suspense
-        fallback={<span className="loading loading-ring loading-xl"></span>}
+        fallback={
+          <div className="min-h-screen pt-15 flex justify-center items-center">
+            <span className="loading loading-ring loading-xl"></span>
+          </div>
+        }
       >
         <HomePage
           productsPromise={productsPromise}
