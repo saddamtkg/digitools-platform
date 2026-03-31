@@ -18,11 +18,7 @@ const CartSection = ({
             >
               <div className="flex gap-4">
                 <div className="p-3.5 w-15.5 h-15.5 border border-[#f2f2f2] rounded-full">
-                  <img
-                    className="w-8 h-8"
-                    src="/src/assets/products/writing_2327400 1.png"
-                    alt=""
-                  />
+                  <img className="w-8 h-8" src="/products/writing.png" alt="product-icon" />
                 </div>
                 <div>
                   <h2 className="lg:text-xl text-lg font-semibold c-text-color">
