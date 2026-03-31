@@ -11,8 +11,8 @@ const Footer = () => {
             <div>
               <img
                 className="w-45 h-10 max-[400px]:m-auto"
-                src="/src/assets/digitools (1).png"
-                alt=""
+                src="/products/footer-logo.png"
+                alt="footer-logo"
               />
               <p className="lg:w-87.5 max-w-full mt-4 max-[400px]:text-center w-full text-base-100 text-[16px]">
                 Premium digital tools for creators, professionals, and

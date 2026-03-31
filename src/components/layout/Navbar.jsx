@@ -13,7 +13,7 @@ const Navbar = ({ cartCount }) => {
           <a href="">
             <img
               className="m-w-full w-45"
-              src="/src/assets/digitools.png"
+              src="/products/digitools.png"
               alt=""
             />
           </a>
@@ -22,7 +22,7 @@ const Navbar = ({ cartCount }) => {
           <a href="">
             <img
               className="m-w-full w-38"
-              src="/src/assets/digitools.png"
+              src="/products/digitools.png"
               alt=""
             />
           </a>
@@ -45,7 +45,7 @@ const Navbar = ({ cartCount }) => {
               <a href="">
                 <img
                   className="m-w-full w-38 mb-4"
-                  src="/src/assets/digitools.png"
+                  src="/products/digitools.png"
                   alt=""
                 />
               </a>

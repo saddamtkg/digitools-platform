@@ -1,5 +1,5 @@
-import React from 'react';
-import { IoPlayOutline } from 'react-icons/io5';
+import React from "react";
+import { IoPlayOutline } from "react-icons/io5";
 
 const Banner = () => {
   return (
@@ -20,9 +20,9 @@ const Banner = () => {
               <span className="text-gradient-brand">Digital Workflow</span>
             </h1>
             <p className="lg:text-[18px] md:text-[16px] text-[14px] max-w-full lg:w-140 w-full mb-4">
-              Access premium AI tools, design assets, templates, and productivity
-              software—all in one place. Start creating faster today. Explore
-              Products
+              Access premium AI tools, design assets, templates, and
+              productivity software—all in one place. Start creating faster
+              today. Explore Products
             </p>
             <div className="flex gap-4 flex-wrap">
               <a
@@ -43,8 +43,8 @@ const Banner = () => {
           <div className="b-column-2">
             <img
               className="w-full h-auto"
-              src="/src/assets/banner.png"
-              alt=""
+              src="/products/banner.png"
+              alt="hero-image"
             />
           </div>
         </div>
