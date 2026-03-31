@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
-import "./Navbar.css";
+import './Navbar.css';
 import { FiMenu, FiShoppingCart } from 'react-icons/fi';
 import { IoMdClose } from 'react-icons/io';
-
-
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -42,7 +40,7 @@ const Navbar = () => {
               )}
             </div>
             <div
-              className={`p-4 top-0 z-50 fixed left-0 h-screen w-70 bg-base-100 shadow-lg transform transition-transform duration-500 ease-in-out ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}
+              className={`p-4 top-0 z-50 fixed left-0 h-screen w-70 max-[400px]:w-fit bg-base-100 shadow-lg transform transition-transform duration-500 ease-in-out ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}
             >
               <a href="">
                 <img
@@ -51,21 +49,24 @@ const Navbar = () => {
                   alt=""
                 />
               </a>
-              <ul tabIndex="-1" className="mobile-menu space-y-2 text-[16px] font-semibold">
+              <ul
+                tabIndex="-1"
+                className="mobile-menu space-y-2 text-[16px] font-semibold"
+              >
                 <li>
-                  <a>Products</a>
+                  <a href="#product">Products</a>
                 </li>
                 <li>
-                  <a>Features</a>
+                  <a href="#feature">Features</a>
                 </li>
                 <li>
-                  <a>Pricing</a>
+                  <a href="#pricing">Pricing</a>
                 </li>
                 <li>
-                  <a>Testimonials</a>
+                  <a href="#testmonial">Testimonials</a>
                 </li>
                 <li>
-                  <a>FAQ</a>
+                  <a href="#faq">FAQ</a>
                 </li>
               </ul>
             </div>
@@ -74,19 +75,19 @@ const Navbar = () => {
         <div className="hidden lg:flex">
           <ul className="desktop-menu flex gap-4 px-1 text-[16px] font-semibold">
             <li>
-              <a>Products</a>
+              <a href="#product">Products</a>
             </li>
             <li>
-              <a>Features</a>
+              <a href="#feature">Features</a>
             </li>
             <li>
-              <a>Pricing</a>
+              <a href="#pricing">Pricing</a>
             </li>
             <li>
-              <a>Testimonials</a>
+              <a href="#testimonial">Testimonials</a>
             </li>
             <li>
-              <a>FAQ</a>
+              <a href="#faq">FAQ</a>
             </li>
           </ul>
         </div>

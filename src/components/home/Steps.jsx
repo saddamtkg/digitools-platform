@@ -5,7 +5,7 @@ import { LuRocket } from 'react-icons/lu';
 const Steps = () => {
   return (
     <>
-      <div className="section lg:py-30 py-10 bg-[#f9fafc]">
+      <div id="feature" className="section lg:py-30 py-10 bg-[#f9fafc]">
         <div className="my-container">
           <div className="mb-4">
             <h2 className="mb-4 lg:text-5xl md:text-4xl text-3xl font-extrabold c-text-color text-center">

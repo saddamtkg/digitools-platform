@@ -6,7 +6,7 @@ const CountUp = CountUpModule.default ?? CountUpModule;
 const Stats = () => {
   return (
     <>
-      <div className="section lg:py-15 py-10 c-bg">
+      <div id="testimonial" className="section lg:py-15 py-10 c-bg">
         <div>
           <div className="my-container">
             <div className="flex lg:flex-row md:flex-row flex-col items-center justify-between gap-2.5 lg:w-5xl w-full m-auto">

@@ -1,10 +1,13 @@
-import React from "react";
-import { IoCheckmarkSharp } from "react-icons/io5";
+import React from 'react';
+import { IoCheckmarkSharp } from 'react-icons/io5';
 
 const Pricing = () => {
   return (
     <>
-      <div className="section lg:py-30 md:py-20 py-10 bg-[#f9fafc]">
+      <div
+        id="pricing"
+        className="section lg:py-30 md:py-20 py-10 bg-[#f9fafc]"
+      >
         <div className="my-container">
           <div className="mb-10">
             <h2 className="mb-4 lg:text-5xl md:text-4xl text-3xl font-extrabold c-text-color text-center">
